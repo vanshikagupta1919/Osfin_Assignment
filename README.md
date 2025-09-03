@@ -6,9 +6,9 @@ This repository implements an AI assistant for handling payment disputes in fint
 
 # Scope
 
--Classify each dispute into one of: DUPLICATE_CHARGE, FAILED_TRANSACTION, FRAUD, REFUND_PENDING, OTHERS
--Suggest a next action: Auto-refund, Manual review, Escalate to bank, Mark as potential fraud, Ask for more info
--Provide a prompt interface that agents can use to query the latest disputes
+- Classify each dispute into one of: DUPLICATE_CHARGE, FAILED_TRANSACTION, FRAUD, REFUND_PENDING, OTHERS
+- Suggest a next action: Auto-refund, Manual review, Escalate to bank, Mark as potential fraud, Ask for more info
+- Provide a prompt interface that agents can use to query the latest disputes
 
 # What you need before running
 
