@@ -12,12 +12,10 @@ This repository implements an AI assistant for handling payment disputes in fint
 
 # What you need before running
 
-- Two CSVs in the project root:
-- disputes.csv with at least: dispute_id, description, txn_id, optional fields like created_at, status
-- transactions.csv with at least: txn_id, amount, status, optional fields like customer_id, created_at
+- Two CSVs in the project root: disputes.csv and transactions.csv 
 - Python 3.9+ and the packages listed below
 - An OpenRouter API key for Task 3 (prompt-based insights with LLM parsing). The code will prompt you at runtime to submit the key.
-- Typical requirements include: pandas, numpy, scikit-learn, transformers, torch (CPU), gradio (optional for web UI), rapidfuzz (optional if you enable fuzzy duplicate detection), and matplotlib (optional for charts).
+- Typical requirements include: pandas, numpy, scikit-learn, transformers, torch (CPU), gradio (optional for web UI), rapidfuzz (optional if you enable fuzzy duplicate detection), and matplotlib (optional for charts)
 
 # How it works (high level)
 
@@ -25,7 +23,7 @@ This repository implements an AI assistant for handling payment disputes in fint
 - Transaction evidence: rules verify and refine the label using actual data (status, duplicate patterns, refund flags)
 - Hybrid decision: semantic signal is combined with transaction signals; confirmations from data can override text-only guesses
 - Resolution mapping: the final category maps to the recommended next action
-- For natural language queries, the system integrates with OpenRouter API to use LLM models (here using deepseek/deepseek-chat-v3.1:free) to parse and answer user prompts. 
+- For natural language queries, the system integrates with OpenRouter API to use LLM models (here using deepseek/deepseek-chat-v3.1:free) to parse and answer user prompts
 - Generates charts showing dispute trends over time and case history transitions.
   
 # Outputs produced after a standard run
@@ -34,6 +32,6 @@ This repository implements an AI assistant for handling payment disputes in fint
 - Resolution suggestions: resolutions.csv 
 - Fuzzy duplicate detection results (classified_disputes_fuzzy.csv)
 - It also provides both a command-line interface and a Gradio web interface for prompt-based insights
-- Charts to visualize dispute trends and case histories.
+- Charts to visualize dispute trends and case histories
 
 
