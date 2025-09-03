@@ -1,0 +1,21 @@
+dispute_id,predicted_category,confidence,explanation
+D001,DUPLICATE_CHARGE,0.9,Duplicate charge confirmed using transaction repetition
+D002,FAILED_TRANSACTION,0.9,Transaction failed based on status
+D003,FAILED_TRANSACTION,0.9,Transaction failed based on status
+D004,FRAUD,0.8885273337364197,Zero-shot semantic classification suggested FRAUD
+D005,REFUND_PENDING,0.6238203048706055,Zero-shot semantic classification suggested REFUND_PENDING
+D006,DUPLICATE_CHARGE,0.9,Duplicate charge confirmed using transaction repetition
+D007,FAILED_TRANSACTION,0.9,Transaction failed based on status
+D008,OTHERS,0.31110990047454834,Zero-shot semantic classification suggested OTHERS
+D009,OTHERS,0.39724987745285034,Zero-shot semantic classification suggested OTHERS
+D010,REFUND_PENDING,0.7507457733154297,Zero-shot semantic classification suggested REFUND_PENDING
+D011,DUPLICATE_CHARGE,0.9,Duplicate charge confirmed using transaction repetition
+D012,OTHERS,0.32492250204086304,Zero-shot semantic classification suggested OTHERS
+D013,DUPLICATE_CHARGE,0.9,Duplicate charge confirmed using transaction repetition
+D014,FAILED_TRANSACTION,0.44947919249534607,Zero-shot semantic classification suggested FAILED_TRANSACTION
+D015,FAILED_TRANSACTION,0.9,Transaction failed based on status
+D016,FRAUD,0.5281234383583069,Zero-shot semantic classification suggested FRAUD
+D017,FAILED_TRANSACTION,0.44901394844055176,Zero-shot semantic classification suggested FAILED_TRANSACTION
+D018,FRAUD,0.4336492121219635,Zero-shot semantic classification suggested FRAUD
+D019,REFUND_PENDING,0.4741402864456177,Zero-shot semantic classification suggested REFUND_PENDING
+D020,DUPLICATE_CHARGE,0.9,Duplicate charge confirmed using transaction repetition
